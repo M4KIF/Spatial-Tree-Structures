@@ -1,7 +1,3 @@
-#pragma once
-
-//Custom Libraries
-
 //Default Libraries
 #include<list>
 #include<queue>
@@ -9,8 +5,10 @@
 #include<iostream>
 #include<algorithm>
 
-//Game files
-#include<Engine/Collisions/AABB.h>
+//Dependencies
+//Dependencies
+#ifndef AABB_H
+#define AABB_H 1
 
 //Macros
 #define NUMBER_OF_CHILDREN 4

@@ -1,17 +1,6 @@
- #pragma once
-
-//Custom Libraries
-
-//Default Libraries
-#include<list>
-#include<queue>
-#include<memory>
-#include<iostream>
-#include<algorithm>
-
-//Game files
-#include<Engine/Collisions/AABB.h>
-#include<Engine/DataStructures/QuadTree.h>
+//Dependencies
+#ifndef QUADTREE_H
+#define QUADTREE_H 1
 
 
 /*

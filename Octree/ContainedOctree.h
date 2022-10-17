@@ -1,11 +1,6 @@
-#pragma once
-
-//Custom Libraries
-
-//Default Libraries
-
-//Game files
-#include<Engine/DataStructures/Octree.h>
+//Dependencies
+#ifndef OCTREE_H
+#define OCTREE_H 1
 
 
 /*

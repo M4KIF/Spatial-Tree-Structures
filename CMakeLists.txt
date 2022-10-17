@@ -26,8 +26,14 @@ if(NOT EXISTS "${PROJECT_SOURCE_DIR}/Dependencies/Collisions-library/CMakeLists.
     message(FATAL_ERROR "The submodules were not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
 endif()
 
-#Adding subdirectory works when the subdir has a CMakeLists.txt in it
-include_directories(Dependencies)
-
+#Adding subdirectories that contain needed dependencies
 add_subdirectory(Dependencies/Collisions-library)
+add_subdirectory(Octree)
+add_subdirectory(QuadTree)
+
+target_link_libraries(Octree PRIVATE aabb-library)
+target_link_libraries(ContainedOctree PRIVATE Octree)
+
+target_link_libraries(QuadTree PRIVATE aabb-library)
+target_link_libraries(ContainedQuadTree PRIVATE QuadTree)
 

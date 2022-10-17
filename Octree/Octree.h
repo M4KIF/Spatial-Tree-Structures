@@ -1,7 +1,3 @@
-#pragma once
-
-//Custom Libraries
-
 //Default Libraries
 #include<list>
 #include<queue>
@@ -9,8 +5,9 @@
 #include<iostream>
 #include<algorithm>
 
-//Game files
-#include<Engine/Collisions/AABB.h>
+//Dependencies
+#ifndef AABB_H
+#define AABB_H 1
 
 //Macros
 #define MINIMUM_DIMENSION 1.0f
