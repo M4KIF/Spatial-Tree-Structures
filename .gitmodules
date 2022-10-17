@@ -1,0 +1,3 @@
+[submodule "Dependencies/Collisions-library"]
+	path = Dependencies/Collisions-library
+	url = git@github.com:M4KIF/Collisions-library.git
