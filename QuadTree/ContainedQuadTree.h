@@ -1,6 +1,5 @@
 //Dependencies
-#ifndef QUADTREE_H
-#define QUADTREE_H 1
+#include "QuadTree.h"
 
 
 /*

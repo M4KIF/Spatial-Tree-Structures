@@ -1,6 +1,5 @@
 //Dependencies
-#ifndef OCTREE_H
-#define OCTREE_H 1
+#include "Octree.h"
 
 
 /*
